@@ -1,0 +1,158 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h6{
+    font-size: 20px;
+}
+p{
+    line-height: 25px;
+}
+/* header start  */
+header .row ul .line::before{
+    content: '' !important;
+    position: absolute !important;
+    box-sizing: border-box !important;
+    width: 1px !important;
+    height: 40px !important;
+    background-color: lightgray !important;
+    right: 0% !important;
+    top: 25% !important;
+}
+.btn-darkblueee{
+    background-color: white;
+    color: #001A57;
+    padding: 10px 20px !important;
+    font-weight: 500 !important;
+    text-transform: uppercase;
+}
+.btn-darkblueee:hover{
+    background-color: #000F32;
+    color: white !important;
+}
+header .row ul li a:hover{
+    color: white !important;
+}
+header .menu ul li .dropd{
+    position: absolute;
+    width: 240px; 
+    background-color: white;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+    z-index: 1;
+    top: 100%;
+}
+header .menu ul li .dropd ol li a{
+    width: 100%; 
+    padding: 11px 25px; 
+    display: block;
+    font-size: 13px;
+    font-weight: 500;
+    border-bottom: 1px solid #eeeeee;
+    color: grey;
+}
+header .menu ul li .dropd ol li {
+    margin-right: 0;
+}
+header .dropd ol li a:hover{
+    background-color: #001A57;
+    color:white;
+}
+header .menu ul li:hover .dropd{
+    opacity: 1;
+    visibility: visible;
+}
+.ho:hover{
+    color: white !important;
+}
+.badge{
+    font-size: 10px !important;
+}
+/* header end  */
+/* banner start */
+.banner{
+    background-image: url("../IMAGES/slide-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 720px;
+}
+.btn-b{
+    background-color: white;
+    color: #001A57;
+    font-weight: 500;
+    padding: 10px 15px !important;
+}
+.btn-b:hover{
+    background-color: #000F32;
+    color: white;
+}
+.botline{
+    display: none;
+}
+.borbho{
+    position: relative;
+}
+.hh4{
+    transition: 1s;
+}
+.borbho:hover .botline{
+    display: block;
+}
+.borbho:hover .hh4{
+    color: #001A57;
+}
+/* banner end  */
+/* form start  */
+.Form .row .title h2{
+    font-size: 35px;
+}
+.grey-line{
+    width: 45px;
+    height: 5px;
+    background-color: lightgray;
+    border-radius: 10px;
+    margin: 15px 0px;
+}
+.img-box{
+    background-image: url("../IMAGES/10.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    height: 500px;
+}
+.pad{
+    padding: 7px 0px;
+}
+.brb{
+    border-bottom: 1px lightgray solid !important;
+    border-radius: 0px !important;
+}
+.btn-darkblue{
+    background-color: #001A57;
+    color: white;
+    padding: 10px 25px !important;
+}
+.btn-darkblue:hover{
+    background-color: #000F32;
+    color: white !important;
+}
+/* form end  */
+/* footer start  */
+footer .row ul li a:hover{
+    color: white !important;
+}
+.btn-darkbluee{
+    background-color: white;
+    color: #001A57;
+    padding: 10px 25px !important;
+    font-weight: 500 !important;
+    text-transform: uppercase;
+}
+.btn-darkbluee:hover{
+    background-color: #000F32;
+    color: white !important;
+}
+/* footer end  */
