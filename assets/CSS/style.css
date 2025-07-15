@@ -71,6 +71,9 @@ header .menu ul li:hover .dropd{
 .badge{
     font-size: 10px !important;
 }
+.bh{
+    width: 100%;
+}
 /* header end  */
 /* banner start */
 .banner{
@@ -105,6 +108,43 @@ header .menu ul li:hover .dropd{
     color: #001A57;
 }
 /* banner end  */
+/* paralax start  */
+.about .about-content h2::before{
+    content: '';
+    position: absolute;
+    box-sizing: border-box;
+    width: 40px;
+    height: 4px;
+    left: 50%;
+    background: #c3c3c3;
+    bottom: 0;
+    transform: translateX(-50%);
+    border-radius: 10px;
+    margin-left: -20px;
+}
+
+.parallax-1 {
+    background-image: url('../IMAGES/para2.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #707d9e;
+}
+.parallax-1 .opacity{
+    background: rgba(0, 26, 87, 0.5);
+    padding: 74px 0 80px 0;
+}
+
+.parallax-2{
+    background-image: url('../IMAGES/para3.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #707d9e;
+}
+.parallax-2 .overlay{
+    background: rgba(0, 0, 0, 0.1);
+    padding: 125px 0;
+}
+/* paralax end */
 /* form start  */
 .Form .row .title h2{
     font-size: 35px;
